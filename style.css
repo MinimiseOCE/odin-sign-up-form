@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue);
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans);
+
+.box {
+    display: flex;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+#sidepic {
+    height: 100vh;
+    width: auto;
+    margin: 0;
+}
+
+
+#backdrop {
+    position:absolute;
+    top:25px;
+    background-color: rgba(0, 0, 0, 0.123);
+    width: 561px;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container {
+    position:absolute;
+    top: 25px;
+    height: 80px;
+    width: 100vw;
+    background-color: #35545D;
+    right: 0;
+    left: 560px;
+    color: #bfd1df;
+    font-family: 'Bebas Neue';
+    font-size: 5rem;
+    letter-spacing: 5px;
+    box-shadow: 0px 10px grey;
+}
+
+.container > p {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 0px;
+    left: 25px;
+}
+
+#backdrop>img {
+    width: 688px;
+    height: 50px;
+    padding: 15px;
+    margin: 0;
+    position: relative;
+}
+
+.form {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.input {
+    height: 40vh;
+    background-color: #92b1b6;
+    box-shadow: 20px 20px 10px grey;
+    font-family: 'Noto Sans';
+}
+
+.bottomText, .topText {
+    height: 30vh;
+    background-color: #ECDDD0;
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+    border: 0;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+fieldset > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+fieldset > legend {
+    margin-bottom: 15px;
+    font-family: 'Bebas Neue';
+    font-size: 24px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color:#f8f8f8;
+    background-color: #35545D;
+    box-shadow: 10px 10px grey;
+    border-radius: 2px;
+}
+
+fieldset > div > div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #35545D;
+}
+
+fieldset > div > div > input {
+    box-shadow: 10px 10px grey;
+    border: 0;
+    border-radius: 3px;
+}
+
+fieldset > div > div > input:valid {
+    border: 2px solid #35545D;
+}
+
+fieldset > div > div > input:invalid {
+    border: 2px solid red;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topText {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 25px;
+    font-family: 'Comfortaa';
+    color: #35545D;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bottomText {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Comfortaa';
+    color: #35545D;
+    padding-left: 25px;
+}
+
+div > button {
+    box-shadow: 10px 10px grey;
+    position: relative;
+    top: 9px;
+    background-color:#ECDDD0;
+    border-radius: 5px;
+    color: #35545D;
+    width: 90px;
+    height: 30px;
+    border: 0;
+    border: 2px solid #35545D;
+}
+
+div > button:hover {
+    position: relative;
+    top: 12px;
+    background-color:#c9dfbf;
+    border:#ECDDD0;
+    color: black;
+    border-radius: 15px;
+    width: 90px;
+    height: 30px;
+}
+
+div > button:active {
+    position: relative;
+    top: 14px;
+    background-color:#c9dfbf;
+    border:#ECDDD0;
+    color: black;
+    border-radius: 15px;
+    width: 90px;
+    height: 30px;
+}
+
+a:hover {
+    color: #92b1b6;
+}
